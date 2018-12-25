@@ -1,0 +1,9 @@
+mktemp -d
+cd /tmp/tmp.FMOL8p1TrC
+ln -s /krypton/krypton2/keyfile.dat
+echo ABCDEFGHIJKLMNOPQRSTUVWXYZ > alpha
+/krypton/krypton2/encrypt alpha
+cat alpha ciphertext
+cat /krypton/krypton2/krypton3
+CAESARISEASY
+ssh krypton3@krypton.labs.overthewire.org -p 2222

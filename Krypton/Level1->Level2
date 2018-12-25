@@ -1,0 +1,5 @@
+find / -name "krypton2" 2> /dev/null
+cat /krypton/krypton1/krypton2
+https://www.rot13.com
+LEVEL TWO PASSWORD ROTTEN
+ssh krypton2@krypton.labs.overthewire.org -p 2222
