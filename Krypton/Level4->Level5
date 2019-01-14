@@ -1,0 +1,7 @@
+cd /krypton/krypton4
+cat found1 found2 | tr -d "[:space:]" 
+https://www.dcode.fr/vigenere-cipher
+FREKEY 
+https://www.dcode.fr/vigenere-cipher
+CLEARTEXT
+ssh krypton5@krypton.labs.overthewire.org -p 2222
