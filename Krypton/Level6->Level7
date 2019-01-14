@@ -1,0 +1,56 @@
+cd /krypton/krypton6
+
+mkdir /tmp/blabla
+
+cd /tmp/blabla
+
+ln -s /krypton/krypton6/keyfile.dat .
+
+>x = ""
+>for c in range(ord('A'),ord('Z')+1):
+>    x += chr(c)*30
+>print(x)
+
+https://onelinepy.herokuapp.com
+
+python -c "(lambda __g, __operator, __print, __y: [(lambda __after, __items, __sentinel: __y(lambda __this: lambda: (lambda __i: [[__this() for __g['x'] in [(__operator.iadd(__g['x'], (chr(c) * 30)))]][0] for __g['c'] in [(__i)]][0] if __i is not __sentinel else __after())(next(__items, __sentinel)))())(lambda: (__print(x), None)[1], iter(range(ord('A'), (ord('Z') + 1))), []) for __g['x'] in [('')]][0])(globals(), __import__('operator', level=0), __import__('__builtin__', level=0).__dict__['print'], (lambda f: (lambda x: x(x))(lambda y: f(lambda: y(y)()))))" > altha
+
+/krypton/krypton6/encrypt6 altha beta
+
+cat beta
+
+And modify it a bit 
+
+A	EICTDGYIYZKTHNSIRFXYCPFUEOCKRN
+B	FJDUEHZJZALUIOTJSGYZDQGVFPDLSO
+C	GKEVFIAKABMVJPUKTHZAERHWGQEMTP
+D	HLFWGJBLBCNWKQVLUIABFSIXHRFNUQ
+E	IMGXHKCMCDOXLRWMVJBCGTJYISGOVR
+F	JNHYILDNDEPYMSXNWKCDHUKZJTHPWS
+G	KOIZJMEOEFQZNTYOXLDEIVLAKUIQXT
+H	LPJAKNFPFGRAOUZPYMEFJWMBLVJRYU
+I	MQKBLOGQGHSBPVAQZNFGKXNCMWKSZV
+J	NRLCMPHRHITCQWBRAOGHLYODNXLTAW
+K	OSMDNQISIJUDRXCSBPHIMZPEOYMUBX
+L	PTNEORJTJKVESYDTCQIJNAQFPZNVCY
+M	QUOFPSKUKLWFTZEUDRJKOBRGQAOWDZ
+N	RVPGQTLVLMXGUAFVESKLPCSHRBPXEA
+O	SWQHRUMWMNYHVBGWFTLMQDTISCQYFB
+P	TXRISVNXNOZIWCHXGUMNREUJTDRZGC
+Q	UYSJTWOYOPAJXDIYHVNOSFVKUESAHD
+R	VZTKUXPZPQBKYEJZIWOPTGWLVFTBIE
+S	WAULVYQAQRCLZFKAJXPQUHXMWGUCJF
+T	XBVMWZRBRSDMAGLBKYQRVIYNXHVDKG
+U	YCWNXASCSTENBHMCLZRSWJZOYIWELH
+V	ZDXOYBTDTUFOCINDMASTXKAPZJXFMI
+W	AEYPZCUEUVGPDJOENBTUYLBQAKYGNJ
+X	BFZQADVFVWHQEKPFOCUVZMCRBLZHOK
+Y	CGARBEWGWXIRFLQGPDVWANDSCMAIPL
+Z	DHBSCFXHXYJSGMRHQEWXBOETDNBJQM
+
+cd /krypton/krypton6
+cat krypton7 
+PNUKLYLWRQKGKBE
+LFSRISNOTRANDOM
+
+ssh krypton7@krypton.labs.overthewire.org -p 2222
